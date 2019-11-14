@@ -1,0 +1,27 @@
+h1 {
+    font-family: LazyOutline; 
+    font-size: 2em;
+    letter-spacing: -1px;
+    margin: $space-after-sml;
+}
+
+h2 {
+    color: $text-mid;
+    font-size: 1.25em;
+    margin: $space-after-std;
+}
+
+h3 {
+    color: $text-mid;
+    font-size: .75em;
+    margin: $space-after-std;
+    text-transform: uppercase;
+}
+
+p {
+    margin: $space-after-std;
+}
+
+li {
+    margin: $space-after-sml;
+}

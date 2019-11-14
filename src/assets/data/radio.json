@@ -1,0 +1,1870 @@
+{ 
+    "mixes":[ 
+        { 
+            "mixId":"kids002",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Lazy-Kids-vol-02.m4a",
+            "img":"assets/img/kids2.jpg",
+            "title":"Lazy.Kids.02",
+            "subtitle":"",
+            "collection":"kids",
+            "dj":"Jnr.D",
+            "date":"17/08/12",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"Kid Carpet",
+                    "track":"Badger"
+                },
+                { 
+                    "artist":"The Beatles",
+                    "track":"I'm only sleaping"
+                },
+                { 
+                    "artist":"Sly and the Family Stone",
+                    "track":"Fun"
+                },
+                { 
+                    "artist":"Margalit and the Feenjon Group",
+                    "track":"Chiribim"
+                },
+                { 
+                    "artist":"Megan",
+                    "track":"Zou Bisou Bisou"
+                },
+                { 
+                    "artist":"Sharks",
+                    "track":"I like to be in America"
+                },
+                { 
+                    "artist":"Shelly Manne",
+                    "track":"Daktari Theme"
+                },
+                { 
+                    "artist":"Aphex Twin",
+                    "track":"Goon Gumpas"
+                },
+                { 
+                    "artist":"Arthur Lowe",
+                    "track":"Mr Daydream"
+                },
+                { 
+                    "artist":"Play School",
+                    "track":"Standing on one leg"
+                },
+                { 
+                    "artist":"Sharron & Harrell Lucky",
+                    "track":"Walk on the line"
+                },
+                { 
+                    "artist":"Sophie George",
+                    "track":"Girlie Girlie"
+                },
+                { 
+                    "artist":"Altered Images",
+                    "track":"Pinky Blue"
+                }
+            ]
+        },
+        { 
+            "mixId":"kids001",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Lazy-Kids-vol-01.m4a",
+            "img":"assets/img/kids.jpg",
+            "title":"Radio.Kids 01",
+            "subtitle":"",
+            "collection":"kids",
+            "dj":"Jnr.D",
+            "date":"19/12/07",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"Peanuts",
+                    "track":"V Guaraldi"
+                },
+                { 
+                    "artist":"Carpet Drill",
+                    "track":"Harrell & Sharron"
+                },
+                { 
+                    "artist":"Florida Fantasy",
+                    "track":"John Barry"
+                },
+                { 
+                    "artist":"The Wishbone",
+                    "track":"Willow the Wisp"
+                },
+                { 
+                    "artist":"Hawaiian War Chant",
+                    "track":"The Pigs"
+                },
+                { 
+                    "artist":"Pata Pata",
+                    "track":"Miriam Makeba"
+                },
+                { 
+                    "artist":"Brixton Market",
+                    "track":"Lord Happiness"
+                },
+                { 
+                    "artist":"Coconut",
+                    "track":"Kermit, two nurses & a Doctor (Witch)"
+                },
+                { 
+                    "artist":"Starfish & Coffee",
+                    "track":"Prince"
+                },
+                { 
+                    "artist":"Jeopardy (Think music)",
+                    "track":"M Griffin"
+                },
+                { 
+                    "artist":"Little April Shower",
+                    "track":"Bambi"
+                },
+                { 
+                    "artist":"Mr Snow",
+                    "track":"Arthur Lowe"
+                },
+                { 
+                    "artist":"Santa Claus is coming...",
+                    "track":"Jayram Acharya"
+                },
+                { 
+                    "artist":"Shouts..."
+                }
+            ]
+        },
+        { 
+            "mixId":"radio025",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-25.m4a",
+            "img":"assets/img/25.jpg",
+            "title":"Radio.Lazy vol.25",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"15/08/13",
+            "tracklist":[ 
+                { 
+                    "artist":"Radio.Lazy vol.25"
+                },
+                { 
+                    "artist":"Madlib",
+                    "track":"Dimples"
+                },
+                { 
+                    "artist":"George McGrae",
+                    "track":"I Get Lifted"
+                },
+                { 
+                    "artist":"Nas",
+                    "track":"Get down"
+                },
+                { 
+                    "artist":"Paul Simon",
+                    "track":"50 ways to leave your lover"
+                },
+                { 
+                    "artist":"GB",
+                    "track":"The Roman Numeral 3"
+                },
+                { 
+                    "artist":"De La Soul",
+                    "track":"Area"
+                },
+                { 
+                    "artist":"BDP",
+                    "track":"Love's gonna get'cha"
+                },
+                { 
+                    "artist":"Bob James",
+                    "track":"Look-a-like"
+                },
+                { 
+                    "artist":"Steely Dan",
+                    "track":"Black cow"
+                },
+                { 
+                    "artist":"Gang Starr",
+                    "track":"Now you're mine"
+                },
+                { 
+                    "artist":"James Brown",
+                    "track":"Payback"
+                },
+                { 
+                    "artist":"Eric B. & Rakim ‎– Don't Sweat The Technique (Original version)"
+                },
+                { 
+                    "artist":"Public Enemy",
+                    "track":"Louder than a bomb (JMJ telephone tap groove)"
+                },
+                { 
+                    "artist":"Grover Washington Jr",
+                    "track":"Knucklehead"
+                },
+                { 
+                    "artist":"The Notorious B.I.G",
+                    "track":"Kick in the door"
+                },
+                { 
+                    "artist":"Crooklyn Dodgers '95",
+                    "track":"Return of the Crooklyn Dodgers"
+                },
+                { 
+                    "artist":"Stevie Wonder",
+                    "track":"Hey Love"
+                },
+                { 
+                    "artist":"Otis Redding",
+                    "track":"You made a man out of me"
+                },
+                { 
+                    "artist":"Common",
+                    "track":"Be (intro)"
+                },
+                { 
+                    "artist":"The Main Ingredient",
+                    "track":"Summer breeze"
+                },
+                { 
+                    "artist":"Undisputed truth",
+                    "track":"Help yourself"
+                },
+                { 
+                    "artist":"Nas",
+                    "track":"I can"
+                },
+                { 
+                    "artist":"Leon Haywood",
+                    "track":"i want'a do something freaky to you"
+                },
+                { 
+                    "artist":"Raekwan",
+                    "track":"Pyrex vision"
+                },
+                { 
+                    "artist":"Raekwan",
+                    "track":"The fat lady sings"
+                },
+                { 
+                    "artist":"Smokey Robinson",
+                    "track":"Baby baby"
+                },
+                { 
+                    "artist":"Gershwin",
+                    "track":"Rhapsody in Blue"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio024",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-24.m4a",
+            "img":"assets/img/24.jpg",
+            "title":"Radio.Lazy vol.24",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"14/07/13",
+            "tracklist":[ 
+                { 
+                    "artist":"Radio.Lazy vol.24"
+                },
+                { 
+                    "artist":"SWV",
+                    "track":"Right Here / Human Nature Extended Mix"
+                },
+                { 
+                    "artist":"Eve",
+                    "track":"Let Me Blow Ya Mind"
+                },
+                { 
+                    "artist":"TLC ‎– Creep '96 (Jermaines Jeep Mix)"
+                },
+                { 
+                    "artist":"Janet",
+                    "track":"Gone 'til it's gone"
+                },
+                { 
+                    "artist":"SWV",
+                    "track":"Can we"
+                },
+                { 
+                    "artist":"Missy Misdemeanor Elliott ‎– The Rain (Supa Dupa Fly)"
+                },
+                { 
+                    "artist":"Kelis Featuring Too $hort ‎– Bossy"
+                },
+                { 
+                    "artist":"Tweet",
+                    "track":"Oops (oh my)"
+                },
+                { 
+                    "artist":"Missy Elliott ‎– Beep Me 911"
+                },
+                { 
+                    "artist":"Destiny's Child",
+                    "track":"Bug A Boo"
+                },
+                { 
+                    "artist":"Brandy ‎– What About Us?"
+                },
+                { 
+                    "artist":"Aaliyah ‎– Try Again"
+                },
+                { 
+                    "artist":"Ashanti",
+                    "track":"Happy"
+                },
+                { 
+                    "artist":"Tweet Featuring Missy Elliott ‎– Turn Da Lights Off"
+                },
+                { 
+                    "artist":"Mary J Blige",
+                    "track":"Deep Inside"
+                },
+                { 
+                    "artist":"Yvette Michelle ‎– I'm Not Feeling You"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio023",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-23.m4a",
+            "img":"assets/img/23.jpg",
+            "title":"Radio.Lazy vol.23",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"10/02/13",
+            "tracklist":[ 
+                { 
+                    "artist":"Radio.Lazy vol.23"
+                },
+                { 
+                    "artist":"John Carpenter",
+                    "track":"Main Title (Escape from New York)"
+                },
+                { 
+                    "artist":"Rocket Juice & the Moon, w Erykah Badu",
+                    "track":"Manuela"
+                },
+                { 
+                    "artist":"Steel an' Skin",
+                    "track":"Afro punk reggae dub"
+                },
+                { 
+                    "artist":"Malinga Five (Diesel & Jarvis readjust)",
+                    "track":"Malinga"
+                },
+                { 
+                    "artist":"Tam Tam pour L'Ethiopie",
+                    "track":"Dub"
+                },
+                { 
+                    "artist":"Cabaret Voltaire",
+                    "track":"Here to go (Space dub)"
+                },
+                { 
+                    "artist":"Tony Allen (Mark Ernestus)",
+                    "track":"Moyege (Mark's disco dub)"
+                },
+                { 
+                    "artist":"Chico Mann",
+                    "track":"Sound is everything"
+                },
+                { 
+                    "artist":"Tony Allen  (Wareika Hill Sounds rework)",
+                    "track":"Isa Nla / Reggae Land Dub"
+                },
+                { 
+                    "artist":"Edikanfo",
+                    "track":"Daa Daa Edikanfo"
+                },
+                { 
+                    "artist":"Pizzicato Five",
+                    "track":"The World Without You"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio022",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-22.m4a",
+            "img":"assets/img/22.jpg",
+            "title":"Radio.Lazy vol.22",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"07/12/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"Barry White",
+                    "track":"Mellow mood (pt1)"
+                },
+                { 
+                    "artist":"MFSB",
+                    "track":"Metamorphosis"
+                },
+                { 
+                    "artist":"The Three Degrees",
+                    "track":"A woman needs a good man"
+                },
+                { 
+                    "artist":"Blackbyrds",
+                    "track":"April Showers"
+                },
+                { 
+                    "artist":"Bohannon",
+                    "track":"Thoughts and wishes"
+                },
+                { 
+                    "artist":"Love Unlimited",
+                    "track":"Walking in the rain with the one I love"
+                },
+                { 
+                    "artist":"The Love Unlimited Orchestra",
+                    "track":"What a groove"
+                },
+                { 
+                    "artist":"The Three Degrees",
+                    "track":"You're the fool "
+                },
+                { 
+                    "artist":"Love Unlimited",
+                    "track":"Under the influence of love"
+                },
+                { 
+                    "artist":"Diana Ross and the Supremes",
+                    "track":"Forever came today"
+                },
+                { 
+                    "artist":"The Love Unlimited Orchestra",
+                    "track":"Always thinking of you"
+                },
+                { 
+                    "artist":"Barry White",
+                    "track":"Just a Little More, Baby"
+                },
+                { 
+                    "artist":"Chic",
+                    "track":"At last I am free"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio021",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-21.m4a",
+            "img":"assets/img/21.jpg",
+            "title":"Radio.Lazy vol.21",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"13/11/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Nina Simone",
+                    "track":"I loves you Porgy"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"I want a little sugar in my bowl"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Please don't let me be misunderstood"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Baltimore"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Pusherman"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"African mailman"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Sinnerman"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Com' by H'yere"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Funkier Than a Mosquitos Tweeter"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"See-line woman"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"See line woman"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Obeah woman"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"I got life"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio020",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-20.m4a",
+            "img":"assets/img/20.jpg",
+            "title":"Radio.Lazy vol.20",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"06/10/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Art of Noise",
+                    "track":"The time for fear (Who's afraid)"
+                },
+                { 
+                    "artist":"Autechre",
+                    "track":"Inhake 2"
+                },
+                { 
+                    "artist":"Sexual harrassment",
+                    "track":"I Need A Freak (Sweat X version)"
+                },
+                { 
+                    "artist":"Lando Kal",
+                    "track":"Time out"
+                },
+                { 
+                    "artist":"Daphni",
+                    "track":"Ye ye"
+                },
+                { 
+                    "artist":"Vangelis",
+                    "track":"Dervish D"
+                },
+                { 
+                    "artist":"Vakula",
+                    "track":"Picture Of You"
+                },
+                { 
+                    "artist":"Black disco",
+                    "track":"Zoysia"
+                },
+                { 
+                    "artist":"Kyle Hall",
+                    "track":"Xero"
+                },
+                { 
+                    "artist":"Owiny Sigoma Band",
+                    "track":"Wires (Theo mix)"
+                },
+                { 
+                    "artist":"G-Strings",
+                    "track":"Images"
+                },
+                { 
+                    "artist":"Wbeeza",
+                    "track":"Jack Ur Car"
+                },
+                { 
+                    "artist":"Kai Alce",
+                    "track":"Lost"
+                },
+                { 
+                    "artist":"Rick Wilhite",
+                    "track":"Sunshine"
+                },
+                { 
+                    "artist":"OMD",
+                    "track":"Sealand"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio019",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-19.m4a",
+            "img":"assets/img/19.jpg",
+            "title":"Radio.Lazy vol.19",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"25/07/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro",
+                    "track":"Radio.Lazy vol.19"
+                },
+                { 
+                    "artist":"Miles Davis",
+                    "track":"In a silent way"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"The thrill is gone"
+                },
+                { 
+                    "artist":"Donald Byrd",
+                    "track":"Chant"
+                },
+                { 
+                    "artist":"Freddie Hubbard",
+                    "track":"Delphia"
+                },
+                { 
+                    "artist":"Lonnie Liston Smith & the Cosmic Echoes",
+                    "track":"Peace"
+                },
+                { 
+                    "artist":"Herbie Hancock",
+                    "track":"Watermelon man"
+                },
+                { 
+                    "artist":"Donald Byrd",
+                    "track":"Woman of the world"
+                },
+                { 
+                    "artist":"Azimuth",
+                    "track":"Caca A Raposa"
+                },
+                { 
+                    "artist":"Grover Washington Jnr",
+                    "track":"Moonstreams"
+                },
+                { 
+                    "artist":"Miles Davis",
+                    "track":"Time after time"
+                },
+                { 
+                    "artist":"Quincy Jones",
+                    "track":"Cast Your Fate to the Wind"
+                },
+                { 
+                    "artist":"Lloyd McNeill",
+                    "track":"Home rule"
+                },
+                { 
+                    "artist":"Longineu Parsons",
+                    "track":"Hanibals March"
+                },
+                { 
+                    "artist":"Thelonious Monk",
+                    "track":"Crepescule with Neville"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio018",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-18.m4a",
+            "img":"assets/img/18.jpg",
+            "title":"Radio.Lazy vol.18",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"30/06/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"JB intro"
+                },
+                { 
+                    "artist":"In time"
+                },
+                { 
+                    "artist":"The promo"
+                },
+                { 
+                    "artist":"Straight out the Jungle (Lazy rub)"
+                },
+                { 
+                    "artist":"Book of rhyme pages"
+                },
+                { 
+                    "artist":"Black woman"
+                },
+                { 
+                    "artist":"Sunshine"
+                },
+                { 
+                    "artist":"Buddy (Native tongue decision)"
+                },
+                { 
+                    "artist":"40 Below trooper"
+                },
+                { 
+                    "artist":"Because I got it like that"
+                },
+                { 
+                    "artist":"All I think about is you"
+                },
+                { 
+                    "artist":"What u waitin' 4?"
+                },
+                { 
+                    "artist":"Sounds of the safari"
+                },
+                { 
+                    "artist":"Good news comin' (Ahem rub)"
+                },
+                { 
+                    "artist":"Kool accordin 2 a Jungle Brother"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio017",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-17.m4a",
+            "img":"assets/img/17.jpg",
+            "title":"Radio.Lazy vol.17",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"04/01/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Eternal",
+                    "track":"Sun-6-8 Drumz (Yoru-Pean Drumz Remix By Pathless)"
+                },
+                { 
+                    "artist":"Joe",
+                    "track":"Level Crossing"
+                },
+                { 
+                    "artist":"Keith Kamp Style too"
+                },
+                { 
+                    "artist":"Mala",
+                    "track":"Unexpected"
+                },
+                { 
+                    "artist":"Red Rack'em",
+                    "track":"How I program"
+                },
+                { 
+                    "artist":"James Blake",
+                    "track":"Klavierwerke"
+                },
+                { 
+                    "artist":"Loefah",
+                    "track":"Truely dread"
+                },
+                { 
+                    "artist":"Infiniti",
+                    "track":"Game One"
+                },
+                { 
+                    "artist":"Instra:mental",
+                    "track":"Vicodin"
+                },
+                { 
+                    "artist":"Brandy",
+                    "track":"Angel In Disguise (Fantastic Mr Fox Remix)"
+                },
+                { 
+                    "artist":"Joe",
+                    "track":"Grime light"
+                },
+                { 
+                    "artist":"Mala",
+                    "track":"Livin Different"
+                },
+                { 
+                    "artist":"James Blake",
+                    "track":"Limit to your love"
+                },
+                { 
+                    "artist":"F",
+                    "track":"Phantom"
+                },
+                { 
+                    "artist":"A Guy Called Gerald",
+                    "track":"Geralds Bassline"
+                },
+                { 
+                    "artist":"Photek",
+                    "track":"The Lightning"
+                },
+                { 
+                    "artist":"Nasty Habits",
+                    "track":"Liquid Fingers (Goldie Remix)"
+                },
+                { 
+                    "artist":"Photek",
+                    "track":"Book Of Changes"
+                },
+                { 
+                    "artist":"Nasty Habits",
+                    "track":"Deep Beats"
+                },
+                { 
+                    "artist":"Nasty Habits",
+                    "track":"Liquid Beatz"
+                },
+                { 
+                    "artist":"Erykah Badu",
+                    "track":"On & On (Pariah Remix)"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"Be my husband"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio016",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-16.m4a",
+            "img":"assets/img/16.jpg",
+            "title":"Radio.Lazy vol.16",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"23/09/10",
+            "tracklist":[ 
+                { 
+                    "artist":"Monolake",
+                    "track":"Void"
+                },
+                { 
+                    "artist":"Patrice Scott",
+                    "track":"Distance against time"
+                },
+                { 
+                    "artist":"A Guy Called Gerald",
+                    "track":"Conclusion F Min Blue"
+                },
+                { 
+                    "artist":"Tazz",
+                    "track":"Acid Love"
+                },
+                { 
+                    "artist":"Motor City Drum Ensemble",
+                    "track":"Frontin"
+                },
+                { 
+                    "artist":"Pacou (Mike Huckaby mix)",
+                    "track":"All it takes"
+                },
+                { 
+                    "artist":"Patrice Scott",
+                    "track":"Eclipse"
+                },
+                { 
+                    "artist":"Urban Tribe",
+                    "track":"Pattern #8"
+                },
+                { 
+                    "artist":"The Godson & Kyle Hall",
+                    "track":"Microburst"
+                },
+                { 
+                    "artist":"Big Strick",
+                    "track":"Whatup Doe!"
+                },
+                { 
+                    "artist":"Crue L Grand Orchestra",
+                    "track":"(You Are) More Than Paradise (Freaks Switching Channels 12 inch mix)"
+                },
+                { 
+                    "artist":"Kai Alce",
+                    "track":"Dirty South Dirt"
+                },
+                { 
+                    "artist":"Wbeeza",
+                    "track":"HurRicANE (feat Tina Penni Anne)"
+                },
+                { 
+                    "artist":"Alex Smith",
+                    "track":"Three Blind Rats"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Galactic Ancestors"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio015",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-15.m4a",
+            "img":"assets/img/15.jpg",
+            "title":"Radio.Lazy vol.15",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"08/09/10",
+            "tracklist":[ 
+                { 
+                    "artist":"Pepe Bradock",
+                    "track":"Intriguing Feathered Creature (AK-Pella)"
+                },
+                { 
+                    "artist":"Cinema Recorded Music Library",
+                    "track":"Lost"
+                },
+                { 
+                    "artist":"Quincy Jones",
+                    "track":"Daydreaming"
+                },
+                { 
+                    "artist":"Quincy Jones",
+                    "track":"First Time Ever I Saw Your Face"
+                },
+                { 
+                    "artist":"Temptations",
+                    "track":"Zoom"
+                },
+                { 
+                    "artist":"UB40",
+                    "track":"Tyler"
+                },
+                { 
+                    "artist":"Joe Gibbs & The Professionals",
+                    "track":"Jungle Dub"
+                },
+                { 
+                    "artist":"Roxy Music",
+                    "track":"2 H.B."
+                },
+                { 
+                    "artist":"A Guy Called Gerald",
+                    "track":"I won't give in"
+                },
+                { 
+                    "artist":"Rhythm & Sound ft Paul St Hilaire",
+                    "track":"What a mistry"
+                },
+                { 
+                    "artist":"Grace Jones",
+                    "track":"Love you to life"
+                },
+                { 
+                    "artist":"Martyn",
+                    "track":"Natural Selection"
+                },
+                { 
+                    "artist":"Kyle Hall",
+                    "track":"Kaychunk"
+                },
+                { 
+                    "artist":"Sadat X",
+                    "track":"The Okie Doke"
+                },
+                { 
+                    "artist":"Wbeeza",
+                    "track":"ROks DOgg"
+                },
+                { 
+                    "artist":"Moodymann",
+                    "track":"Amerika"
+                },
+                { 
+                    "artist":"St Germain",
+                    "track":"Easy to remember"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Friendly Children"
+                },
+                { 
+                    "artist":"The Isley Brothers",
+                    "track":"Fire and Rain"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio014",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-14.m4a",
+            "img":"assets/img/14.jpg",
+            "title":"Radio.Lazy vol.14",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"26/08/10",
+            "tracklist":[ 
+                { 
+                    "artist":"Velvet Underground",
+                    "track":"Candy Says"
+                },
+                { 
+                    "artist":"Kraftwerk",
+                    "track":"Morgenspaziergang"
+                },
+                { 
+                    "artist":"Pepe Bradock",
+                    "track":"Intriguing Feathered Creature"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Space Bumps"
+                },
+                { 
+                    "artist":"Move D",
+                    "track":"Crashed Jazz"
+                },
+                { 
+                    "artist":"Manmade Science",
+                    "track":"Get your head up (SoulPhiction dub)"
+                },
+                { 
+                    "artist":"Nina Simone",
+                    "track":"When I was a young girl"
+                },
+                { 
+                    "artist":"Brian Eno",
+                    "track":"Quartz"
+                },
+                { 
+                    "artist":"Patrick Pulsinger",
+                    "track":"Sluts Strings 909"
+                },
+                { 
+                    "artist":"Hot coins",
+                    "track":""
+                },
+                { 
+                    "artist":"Mark E",
+                    "track":"Good Times"
+                },
+                { 
+                    "artist":"Count Bass D",
+                    "track":"I despise"
+                },
+                { 
+                    "artist":"Tokyo Deep",
+                    "track":"The Beautiful Memory"
+                },
+                { 
+                    "artist":"Lil Louis",
+                    "track":"I Called U (But U Went To The Party)"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"I'm going downstairs"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio013",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-13.m4a",
+            "img":"assets/img/13.jpg",
+            "title":"Radio.Lazy vol.13",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"03/02/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Mortiz Von Oswald Trio",
+                    "track":"Pattern 3"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Space Station"
+                },
+                { 
+                    "artist":"Marcellus Pittman",
+                    "track":"Nyrobi Knight"
+                },
+                { 
+                    "artist":"Jus Ed",
+                    "track":"Project 255 GV Deep Tech"
+                },
+                { 
+                    "artist":"Reggie Dokes",
+                    "track":"Dream Catcher"
+                },
+                { 
+                    "artist":"Underground Resistance",
+                    "track":"Windchime"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Falling up"
+                },
+                { 
+                    "artist":"Darren Abrams",
+                    "track":"Loose Piano (Malik Pittman remix)"
+                },
+                { 
+                    "artist":"Reggie Dokes",
+                    "track":"Walking in Deepness"
+                },
+                { 
+                    "artist":"Levon Vincent",
+                    "track":"Games Dub"
+                },
+                { 
+                    "artist":"Kai Alce",
+                    "track":"Hi-Lee Teched Off"
+                },
+                { 
+                    "artist":"Jade Fox",
+                    "track":"Death by Creation"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio012",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-12.m4a",
+            "img":"assets/img/12.jpg",
+            "title":"Radio.Lazy vol.12",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"GiveUpArt",
+            "date":"02/12/09",
+            "tracklist":[ 
+                { 
+                    "artist":"Mr Salt & Baby Ford [Rhythm King, 1989]",
+                    "track":"A Poem for Wigan"
+                },
+                { 
+                    "artist":"Herbert [Phonography, 1998]",
+                    "track":"This Time"
+                },
+                { 
+                    "artist":"The Bug ft. Roger Robinson [Klein, 2003]",
+                    "track":"Night (version)"
+                },
+                { 
+                    "artist":"Marina Van-Rooy [deConstruction, 1990]",
+                    "track":"Sly One (Amsterdam Mix)"
+                },
+                { 
+                    "artist":"Omniverse [Discoin Irma, 1992]",
+                    "track":"Venere"
+                },
+                { 
+                    "artist":"Master C&J [State Street Records, 1987]",
+                    "track":"Face It"
+                },
+                { 
+                    "artist":"Morgan Geist [Environ, 2001]",
+                    "track":"Sleaze"
+                },
+                { 
+                    "artist":"Sandee [NuPhonic Re-Issue, 2000]",
+                    "track":"Notice Me"
+                },
+                { 
+                    "artist":"R+R [3 Stripe Records, 1988]",
+                    "track":"Acid Off A Way Part 2"
+                },
+                { 
+                    "artist":"The Children [DJ International, 1987]",
+                    "track":"Freedom"
+                },
+                { 
+                    "artist":"2 Lone Swordsmen [Emissions Audio Output, 1996]",
+                    "track":"Don't Call It Jerk"
+                },
+                { 
+                    "artist":"Problem Kids ft. Steve Edwards [Paper, 1999]",
+                    "track":"I Will Lead (Crazy Penis Mix)"
+                },
+                { 
+                    "artist":"A Guy Called Gerald [Rham, 1988]",
+                    "track":"Tranquility on Phobos"
+                },
+                { 
+                    "artist":"Blaze [Playhouse, 1998]",
+                    "track":"Lovelee Dae (8 Miles High Dub)"
+                },
+                { 
+                    "artist":"Geiom ft. Marita [Berkane Sol, 2008]",
+                    "track":"Reminissin' (Shackleton Dub Refix)"
+                },
+                { 
+                    "artist":"Colourbox ft. Lorita Grahame [4AD, 1986]",
+                    "track":"Baby I Love You So"
+                },
+                { 
+                    "artist":"Supermax [Elektra, 1979]",
+                    "track":"Ain't Gonna Feel"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio011",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-11.m4a",
+            "img":"assets/img/11.jpg",
+            "title":"Radio.Lazy vol.11",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"04/02/09",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro",
+                    "track":"Intro"
+                },
+                { 
+                    "artist":"Buddha Machine",
+                    "track":"Buddha Machine"
+                },
+                { 
+                    "artist":"Weather Report",
+                    "track":"In A Silent Way"
+                },
+                { 
+                    "artist":"Carl Craig",
+                    "track":"Goodbye World"
+                },
+                { 
+                    "artist":"Kraftwerk",
+                    "track":"Franz Schubert / Endless Endless"
+                },
+                { 
+                    "artist":"Larry Heard",
+                    "track":"25 Years from Alpha"
+                },
+                { 
+                    "artist":"Ashra",
+                    "track":"Blackouts"
+                },
+                { 
+                    "artist":"Wu Tang Clan",
+                    "track":"The Heart Gentle Weeps"
+                },
+                { 
+                    "artist":"Azymuth",
+                    "track":"Light As A Feather"
+                },
+                { 
+                    "artist":"Moodymann",
+                    "track":"One Night"
+                },
+                { 
+                    "artist":"Reggie Dokes",
+                    "track":"The Dance Of Heru"
+                },
+                { 
+                    "artist":"Reggie Dokes",
+                    "track":"Love"
+                },
+                { 
+                    "artist":"Infiniti",
+                    "track":"Moonbeam"
+                },
+                { 
+                    "artist":"Maurizio",
+                    "track":"Eleye"
+                },
+                { 
+                    "artist":"Lil Louis",
+                    "track":"I Called U"
+                },
+                { 
+                    "artist":"Herbie Hancock, Thad Jones, Ron Carter, Jerome Richardson, Grady Tate, Jonathan Klein",
+                    "track":"Final Amen"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio010",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-10.m4a",
+            "img":"assets/img/10.jpg",
+            "title":"Radio.Lazy vol.10",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"23/07/08",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"Appleblim",
+                    "track":"Over here"
+                },
+                { 
+                    "artist":"Philip Glass - 'Music in 12 parts",
+                    "track":"pt1"
+                },
+                { 
+                    "artist":"Erykah Badu",
+                    "track":"My people"
+                },
+                { 
+                    "artist":"Sebbo",
+                    "track":"Watamu Beach' (Maurizio remix)"
+                },
+                { 
+                    "artist":"Kraftwerk",
+                    "track":"Radioland"
+                },
+                { 
+                    "artist":"Portishead",
+                    "track":"Hunter"
+                },
+                { 
+                    "artist":"Four Tet",
+                    "track":"Ribons"
+                },
+                { 
+                    "artist":"Larry Heard",
+                    "track":"Slam Dance"
+                },
+                { 
+                    "artist":"Brian Eno",
+                    "track":"Final Sunset"
+                },
+                { 
+                    "artist":"Jazzbo",
+                    "track":"Sensi Addickk' (Replay Version)"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio009",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-09.m4a",
+            "img":"assets/img/09.jpg",
+            "title":"Radio.Lazy vol.9",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"El Pachino",
+            "date":"29/05/08",
+            "tracklist":[ 
+                { 
+                    "artist":"Randy Crawford",
+                    "track":"Last Night at Danceland"
+                },
+                { 
+                    "artist":"Ariana Evans",
+                    "track":"Hey Now"
+                },
+                { 
+                    "artist":"Shakatak",
+                    "track":"On Nights Like Tonight"
+                },
+                { 
+                    "artist":"Aretha Franklin",
+                    "track":"Every Girl (wants my guy)"
+                },
+                { 
+                    "artist":"Linx",
+                    "track":"Together We Can Shine"
+                },
+                { 
+                    "artist":"Prince",
+                    "track":"Just as Long as We're Together"
+                },
+                { 
+                    "artist":"Steve Arrington",
+                    "track":"Speak With Your Body"
+                },
+                { 
+                    "artist":"Brass Construction",
+                    "track":"Walkin' the Line"
+                },
+                { 
+                    "artist":"T Connection",
+                    "track":"Playin' Games"
+                },
+                { 
+                    "artist":"Rick James",
+                    "track":"High on Your Love Suite"
+                },
+                { 
+                    "artist":"Gibson Brothers",
+                    "track":"Ooh! What a Life"
+                },
+                { 
+                    "artist":"Barrabas",
+                    "track":"On the Road Again"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio008",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-08.m4a",
+            "img":"assets/img/08.jpg",
+            "title":"Radio.Lazy vol.8",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Vianney",
+            "date":"16/09/11",
+            "tracklist":[ 
+
+            ]
+        },
+        { 
+            "mixId":"radio007",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-07.m4a",
+            "img":"assets/img/07.jpg",
+            "title":"Radio.Lazy vol.7",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"16/09/11",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"Promenade Sentimentale",
+                    "track":"V. Cosma"
+                },
+                { 
+                    "artist":"Heaven",
+                    "track":"Build an Ark"
+                },
+                { 
+                    "artist":"Hibiscus",
+                    "track":"Andy Bey"
+                },
+                { 
+                    "artist":"I Ain't Got Nothing",
+                    "track":"The Temptations"
+                },
+                { 
+                    "artist":"Woodstock",
+                    "track":"Joni Mitchell"
+                },
+                { 
+                    "artist":"Feel Like Loving You Today",
+                    "track":"Donald Byrd"
+                },
+                { 
+                    "artist":"Moon Child",
+                    "track":"Pharoah Sanders"
+                },
+                { 
+                    "artist":"Feedback",
+                    "track":"Green Pickles"
+                },
+                { 
+                    "artist":"Tribute to Dilla",
+                    "track":"J Rawls"
+                },
+                { 
+                    "artist":"Tea Leaf Dancers",
+                    "track":"Flying Lotus"
+                },
+                { 
+                    "artist":"After Glow",
+                    "track":"Jason Fine"
+                },
+                { 
+                    "artist":"Call For Prayer",
+                    "track":"A Guy Called Gerald"
+                },
+                { 
+                    "artist":"La Bougie",
+                    "track":"Spacek feat Mpho Skeef"
+                },
+                { 
+                    "artist":"Reflections",
+                    "track":"Bill Conti"
+                },
+                { 
+                    "artist":"Kofi",
+                    "track":"Onra"
+                },
+                { 
+                    "artist":"Moon River",
+                    "track":"Audrey Hepburn"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio006",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-06.m4a",
+            "img":"assets/img/06.jpg",
+            "title":"Radio.Lazy vol.6",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Sam",
+            "date":"23/10/07",
+            "tracklist":[ 
+                { 
+                    "artist":"Intro"
+                },
+                { 
+                    "artist":"Moodymann",
+                    "track":"I'd Rather Be Lonely"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Serengeti Echoes"
+                },
+                { 
+                    "artist":"The Dining Rooms",
+                    "track":"Thank You? (Skwerl's Ungrateful Dub)"
+                },
+                { 
+                    "artist":"The Other People Place",
+                    "track":"Eye Contact"
+                },
+                { 
+                    "artist":"Zed Bias",
+                    "track":"Time"
+                },
+                { 
+                    "artist":"Delia Gonzalez & Gavin Russom",
+                    "track":"Revelee (Carl Craig Remix)"
+                },
+                { 
+                    "artist":"Mad Mike",
+                    "track":"Don't You Want It feat. Davina"
+                },
+                { 
+                    "artist":"Dj Minx",
+                    "track":"Lavender Lust"
+                },
+                { 
+                    "artist":"Moodymann",
+                    "track":"Unknown"
+                },
+                { 
+                    "artist":"Peace Division",
+                    "track":"Voodoo (It's In The Wall)"
+                },
+                { 
+                    "artist":"Theo Parrish",
+                    "track":"Synthetic Flemm"
+                },
+                { 
+                    "artist":"The Dining Rooms",
+                    "track":"Free To Grow (Quarion Remix)"
+                },
+                { 
+                    "artist":"Kai Alc�",
+                    "track":"Hi-Lee Teched Off"
+                },
+                { 
+                    "artist":"Unknown?"
+                },
+                { 
+                    "artist":"L.E.B. Harmony",
+                    "track":"Feeling Love"
+                },
+                { 
+                    "artist":"Landslide & Don Freeman",
+                    "track":"Conundrum (Danny Krivit Re-edit)"
+                },
+                { 
+                    "artist":"U-Tern",
+                    "track":"Give It Up"
+                },
+                { 
+                    "artist":"Rednose Distrikt",
+                    "track":"Clave"
+                },
+                { 
+                    "artist":"Pure Science",
+                    "track":"Unknown"
+                },
+                { 
+                    "artist":"Mr G",
+                    "track":"Jet Black"
+                },
+                { 
+                    "artist":"Octave One",
+                    "track":"DayStar Rising"
+                },
+                { 
+                    "artist":"Yass",
+                    "track":"I Go Deep (Extended Dub Mix)"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio005",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-05.m4a",
+            "img":"assets/img/05.jpg",
+            "title":"Radio.Lazy vol.5",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Sam",
+            "date":"30/07/07",
+            "tracklist":[ 
+                { 
+                    "artist":"True & Livin'",
+                    "track":"Lord Finnesse"
+                },
+                { 
+                    "artist":"One Day",
+                    "track":"Jeru Tha Damaja"
+                },
+                { 
+                    "artist":"Two Steps Behind",
+                    "track":"No ID"
+                },
+                { 
+                    "artist":"I Declare War",
+                    "track":"Pacewon"
+                },
+                { 
+                    "artist":"Handlin' Business",
+                    "track":"Planet Asia"
+                },
+                { 
+                    "artist":"Real Talk",
+                    "track":"Lord Finnesse feat. Grand Puba"
+                },
+                { 
+                    "artist":"How Many Mcees Must Get Dissed",
+                    "track":"Black Moon"
+                },
+                { 
+                    "artist":"Hip Hop Essentials",
+                    "track":"Rascoe"
+                },
+                { 
+                    "artist":"Dedication To Bambaataa",
+                    "track":"Justice System"
+                },
+                { 
+                    "artist":"2nd Hand Smoke",
+                    "track":"Raw Produce"
+                },
+                { 
+                    "artist":"Smiley",
+                    "track":"Asheru & Blue Black"
+                },
+                { 
+                    "artist":"Following Goals (Frankenstein Mix)",
+                    "track":"L Fudge feat. Bahamadia"
+                },
+                { 
+                    "artist":"Original",
+                    "track":"Jigmastas"
+                },
+                { 
+                    "artist":"Inst.",
+                    "track":"Dj Spinna"
+                },
+                { 
+                    "artist":"Hold",
+                    "track":"Dj Spinna feat. Apani B & Jean Grae"
+                },
+                { 
+                    "artist":"Make Em NV",
+                    "track":"Jay Dee"
+                },
+                { 
+                    "artist":"Nasty",
+                    "track":"Phat Kat"
+                },
+                { 
+                    "artist":"Moving With You",
+                    "track":"Q. Tip"
+                },
+                { 
+                    "artist":"Sound The Alarm",
+                    "track":"Black Milk"
+                },
+                { 
+                    "artist":"Early Dayz Amazement",
+                    "track":"Shinsight Trio feat. Insight"
+                },
+                { 
+                    "artist":"God Is Back (Spencer Doran Remix)",
+                    "track":"Sadat X"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio004",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-04.m4a",
+            "img":"assets/img/04.jpg",
+            "title":"Radio.Lazy vol.4",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"13/07/07",
+            "tracklist":[ 
+
+            ]
+        },
+        { 
+            "mixId":"radio003",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-03.m4a",
+            "img":"assets/img/03.jpg",
+            "title":"Radio.Lazy vol.3",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"19/02/07",
+            "tracklist":[ 
+                { 
+                    "artist":"I can take it",
+                    "track":"Theo Parrish"
+                },
+                { 
+                    "artist":"Q",
+                    "track":"Soul 223"
+                },
+                { 
+                    "artist":"M.Pittman",
+                    "track":"Skylark (Late morning mix fool!!!)"
+                },
+                { 
+                    "artist":"The AM",
+                    "track":"Choose to believe (Lazy vs)"
+                },
+                { 
+                    "artist":"Congo mango",
+                    "track":"3 Chairs "
+                },
+                { 
+                    "artist":"Peven Everett",
+                    "track":"Stuck (Phil Asher's Soul Heaven vs)"
+                },
+                { 
+                    "artist":"Son Of Raw",
+                    "track":"A Drumstick & a Light fixture"
+                },
+                { 
+                    "artist":"Earth song",
+                    "track":"Sade "
+                },
+                { 
+                    "artist":"Premiata",
+                    "track":"Convextion"
+                },
+                { 
+                    "artist":"Nami",
+                    "track":"Dazzle Drums "
+                },
+                { 
+                    "artist":"For real",
+                    "track":"Atjazz"
+                },
+                { 
+                    "artist":"Oblivion",
+                    "track":"Kerri Chandler"
+                },
+                { 
+                    "artist":"Beyond the clouds",
+                    "track":"Mr Fingers"
+                }
+            ]
+        },
+        { 
+            "mixId":"radio002",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-02.m4a",
+            "img":"assets/img/02.jpg",
+            "title":"Radio.Lazy vol.2",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Sam",
+            "date":"07/01/07",
+            "tracklist":[ 
+
+            ]
+        },
+        { 
+            "mixId":"radio001",
+            "file":"https://s3-eu-west-1.amazonaws.com/lazy-radio-original/Radio-Lazy-vol-01.m4a",
+            "img":"assets/img/01.jpg",
+            "title":"Radio.Lazy vol.1",
+            "subtitle":"",
+            "collection":"radio",
+            "dj":"Jnr.D",
+            "date":"19/11/06",
+            "tracklist":[ 
+                { 
+                    "artist":"In the field",
+                    "track":"Hu Vibrational (wit Yusef Lateef)"
+                },
+                { 
+                    "artist":"Breezin",
+                    "track":"George Benson"
+                },
+                { 
+                    "artist":"Soul Starr",
+                    "track":"Jneoiro Jarel"
+                },
+                { 
+                    "artist":"Offbeat (Groove)",
+                    "track":"Madlib"
+                },
+                { 
+                    "artist":"(You know that you play) This",
+                    "track":"Count Bassd"
+                },
+                { 
+                    "artist":"Queens",
+                    "track":"Pharoae Monch"
+                },
+                { 
+                    "artist":"C.R.E.A.M.",
+                    "track":"El Michels Affair"
+                },
+                { 
+                    "artist":"Black Jesus",
+                    "track":"Ghostface Killah"
+                },
+                { 
+                    "artist":"Nautilus",
+                    "track":"Bob James"
+                },
+                { 
+                    "artist":"Verses from the abstract",
+                    "track":"Tribe Called Quest"
+                },
+                { 
+                    "artist":"I wanna piece of ur luv",
+                    "track":"Spacek"
+                },
+                { 
+                    "artist":"Hand and mouth",
+                    "track":"Nomo"
+                },
+                { 
+                    "artist":"Labe Igi Orombo (Under the orange tree)",
+                    "track":"Ayetoro Omo Obokum"
+                },
+                { 
+                    "artist":"Gilefema",
+                    "track":"Akwe (Nickodemus re-edit)"
+                },
+                { 
+                    "artist":"Put it on",
+                    "track":"Atjazz"
+                },
+                { 
+                    "artist":"For real",
+                    "track":"Atjazz (Charles Webster & Martin Iveson remix)"
+                },
+                { 
+                    "artist":"Tech this out",
+                    "track":"Karizma"
+                },
+                { 
+                    "artist":"Karawanre",
+                    "track":"Escort"
+                },
+                { 
+                    "artist":"Electric lady dance",
+                    "track":"Cro-Magnon"
+                },
+                { 
+                    "artist":"Faith",
+                    "track":"Amp Fiddler"
+                },
+                { 
+                    "artist":"People make the world go round",
+                    "track":"Michael Jackson"
+                },
+                { 
+                    "artist":"Dance with me",
+                    "track":"Nouvelle Vague"
+                }
+            ]
+        }
+    ]
+}

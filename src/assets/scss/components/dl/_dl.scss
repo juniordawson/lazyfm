@@ -1,0 +1,21 @@
+dl {
+    display: inline-block;
+    margin: $space-after-lrg;
+    margin-right: 1.25em;
+
+    dt,
+    dd {
+        display: inline-block;
+    }
+
+    dt { 
+        color: $text-mid;
+        font-size: .75em;
+        margin-right: .5em;
+        text-transform: uppercase;
+    }
+
+    dd {
+        margin-right: .25em;
+    }
+}
