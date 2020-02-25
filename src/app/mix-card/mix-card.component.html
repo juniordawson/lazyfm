@@ -1,6 +1,6 @@
-<div class="mix">
+<div class="mix" *ngFor="let mix of mixes; index as mixId">
   <div class="mix__cover">
-    <a href="" download class="mix__image-link"><img src="./assets/img/covers/{{mix.img}}" alt="" /></a>
+    <a [routerLink]="['/mixes', mixId]" class="mix__image-link"><img src="./assets/img/covers/{{mix.img}}" alt="" /></a>
     <div class="two-col">
       <p><a href="{{mix.file}}" download class="btn">Download file</a></p>
       <p><a href="" class="btn">Listen online</a></p>
@@ -10,7 +10,6 @@
   </div>
   <div class="mix__content">
     <h1>{{mix.title}}</h1> 
-    <!-- <h2 *ngIf="mix.subtitle">{{mix.subtitle}}</h2>  -->
     <dl>
       <dt>Dj: </dt>
       <dd>{{mix.dj}}</dd>

@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 import { MixCard } from './mix-card';
+import { mixes } from '../mixes';
 
 @Component({
   selector: 'app-mix-card',
@@ -8,5 +9,5 @@ import { MixCard } from './mix-card';
 })
 
 export class MixCardComponent {
-  @Input() mix: MixCard;
+  mixes = mixes;
 }
