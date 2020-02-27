@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-
-import { mixes } from '../mixes';
 
 @Component({
   selector: 'app-mix-page',

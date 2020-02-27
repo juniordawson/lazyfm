@@ -1,31 +1,31 @@
-<div class="mix" *ngFor="let mix of mixes; index as mixId">
-  <div class="mix__cover">
-    <a [routerLink]="['/mixes', mixId]" class="mix__image-link"><img src="./assets/img/covers/{{mix.img}}" alt="" /></a>
-    <div class="two-col">
-      <p><a href="{{mix.file}}" download class="btn">Download file</a></p>
-      <p><a href="" class="btn">Listen online</a></p>
+<div class="mix">
+    <div class="mix__cover">
+        <a [routerLink]="['/mixes', mixId]" class="mix__image-link"><img src="./assets/img/covers/{{mix.img}}" alt="" /></a>
+        <div class="two-col">
+        <p><a href="{{mix.file}}" download class="btn">Download file</a></p>
+        <p><a href="" class="btn">Listen online</a></p>
+        </div>
+        
+        <p>{{mix.date}}</p>
     </div>
-    
-    <p>{{mix.date}}</p>
-  </div>
-  <div class="mix__content">
-    <h1>{{mix.title}}</h1> 
-    <dl>
-      <dt>Dj: </dt>
-      <dd>{{mix.dj}}</dd>
-    </dl>
-    <dl>
-      <dt>Sound/s: </dt>
-      <dd *ngFor="let genre of mix.genres">{{genre.sound}}</dd>
-    </dl>
-    <dl>
-      <dt>Collection: </dt>
-      <dd>{{mix.collection}}</dd>
-    </dl>
+    <div class="mix__content">
+        <h1>{{mix.title}}</h1> 
+        <dl>
+        <dt>Dj: </dt>
+        <dd>{{mix.dj}}</dd>
+        </dl>
+        <dl>
+        <dt>Sound/s: </dt>
+        <dd *ngFor="let genre of mix.genres">{{genre.sound}}</dd>
+        </dl>
+        <dl>
+        <dt>Collection: </dt>
+        <dd>{{mix.collection}}</dd>
+        </dl>
 
-    <h3>Tracklist:</h3>
-    <ul>
-        <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} - {{ tracklist.track }}</li>
-    </ul>
-  </div>
+        <h3>Tracklist:</h3>
+        <ul>
+            <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} - {{ tracklist.track }}</li>
+        </ul>
+    </div>
 </div>

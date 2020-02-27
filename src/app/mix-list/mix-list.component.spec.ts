@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MixCardComponent } from './mix-card.component';
+import { MixListComponent } from './mix-list.component';
 
-describe('MixCardComponent', () => {
-  let component: MixCardComponent;
-  let fixture: ComponentFixture<MixCardComponent>;
+describe('MixComponent', () => {
+  let component: MixListComponent;
+  let fixture: ComponentFixture<MixListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MixCardComponent ]
+      declarations: [ MixListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MixCardComponent);
+    fixture = TestBed.createComponent(MixListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
