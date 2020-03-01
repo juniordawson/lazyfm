@@ -2,28 +2,57 @@ app-mix-card {
   width: 100%;
 }
 
-.mix {
-  background-color: #f3f3f3;
-  border: 1px solid #f3f3f3;
+.card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-  display: flex;
-  margin: 1em;
-  padding: 1em;
+  margin: 0 0 1em 0;
+}
 
-  &__cover {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 0 1em 0 0;
-    width: 25%;
-  }
+.grid {
 
-  &__image-link {
-    display: block;
+  .card {
+    width: 30%;
+
+    &__panel {
+      height: 0;
+      overflow-y: auto;
+      padding-top: 100%;
+      position: relative;
+      width: 100%;
+
+      &-inner {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: left;
+        top: 0;
+
+        &:last-of-type {
+          display: none;
+        }
+      }
+
+      &.flipped {
+
+        .card__panel-inner {
+
+          &:first-of-type {
+            display: none;
+          }
+
+          &:last-of-type {
+            display: block;
+          }
+        }
+      }
+    }
+
+    &__content-pad {
+      padding: 0.2em;
+    }
 
     img {
       max-width: 100%;
-      width: 100%;
     }
   }
 }
