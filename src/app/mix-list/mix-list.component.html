@@ -3,10 +3,10 @@
 <div [ngClass]="layout ? 'column' : 'grid'">
     <div class="card" *ngFor="let mix of mixes; index as mixId">
         <button class="card__panel"  [ngClass]="{'flipped': mix.isflipped }" (click)="mix.isflipped = !mix.isflipped;">
-            <div class="card__panel-inner">
+            <div class="card__panel-inner card__panel-front">
                 <img src="./assets/img/covers/{{mix.img}}" alt="" />
             </div>
-            <div class="card__panel-inner">
+            <div class="card__panel-inner card__panel-back">
                 <div class="card__content-pad" >
                     <h1>{{mix.title}}</h1> 
                     <dl>

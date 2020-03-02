@@ -2,6 +2,26 @@ app-mix-card {
   width: 100%;
 }
 
+@keyframes slide-in-a {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes slide-in-b {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0%); }
+}
+   
+@keyframes slide-out-a {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
+}
+
+@keyframes slide-out-b {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+
 .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   margin: 0 0 1em 0;
@@ -26,9 +46,15 @@ app-mix-card {
         right: 0;
         text-align: left;
         top: 0;
+        animation: transform 1s forwards;
+
+        &:first-of-type {
+          animation: slide-out-a 0.2s forwards;
+        }
 
         &:last-of-type {
-          display: none;
+          animation: slide-out-b 0.2s forwards;
+          transform: translateX(100%);
         }
       }
 
@@ -37,22 +63,24 @@ app-mix-card {
         .card__panel-inner {
 
           &:first-of-type {
-            display: none;
+            animation: slide-in-a 0.2s forwards;
           }
 
           &:last-of-type {
-            display: block;
+            animation: slide-in-b 0.2s forwards;
           }
         }
       }
     }
-
+    
     &__content-pad {
-      padding: 0.2em;
+      padding: 0.5em;
     }
 
     img {
       max-width: 100%;
+      position: sticky;
+      top: 0;
     }
   }
 }
