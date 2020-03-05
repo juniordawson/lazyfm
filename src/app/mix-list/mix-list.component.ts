@@ -8,4 +8,5 @@ import { mixes } from '../mixes';
 
 export class MixListComponent {
   mixes = mixes;
+  layout;
 }

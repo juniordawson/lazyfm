@@ -7,6 +7,7 @@ h1 {
 
 h2 {
     color: $text-mid;
+    font-family: LazyOutline; 
     font-size: 1.25em;
     margin: $space-after-std;
 }
@@ -23,5 +24,6 @@ p {
 }
 
 li {
-    margin: $space-after-sml;
+    letter-spacing: 0.05em;
+    margin: $space-after-std;
 }

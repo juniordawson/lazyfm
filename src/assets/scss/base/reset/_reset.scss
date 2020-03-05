@@ -30,7 +30,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    background-color: #cfcfcf;
+    background: rgb(255,235,252);
+	background: linear-gradient(0deg, rgba(255,235,252,1) 0%, rgba(232,204,227,1) 10%, rgba(255,241,253,1) 100%);
+	background-attachment: fixed;
     line-height: 1;
     font-size: 16px;
     font-family: LazyLine; 

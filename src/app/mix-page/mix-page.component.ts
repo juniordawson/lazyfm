@@ -10,6 +10,7 @@ import { mixes } from '../mixes';
 })
 export class MixPageComponent implements OnInit {
   mix;
+  mixId;
 
   constructor(
     private route: ActivatedRoute,

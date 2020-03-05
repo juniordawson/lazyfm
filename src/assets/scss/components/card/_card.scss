@@ -1,86 +1,98 @@
-app-mix-card {
-  width: 100%;
-}
-
 @keyframes slide-in-a {
   0% { transform: translateX(0%); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-102%); }
 }
 
 @keyframes slide-in-b {
-  0% { transform: translateX(100%); }
+  0% { transform: translateX(102%); }
   100% { transform: translateX(0%); }
 }
    
 @keyframes slide-out-a {
-  0% { transform: translateX(-100%); }
+  0% { transform: translateX(-102%); }
   100% { transform: translateX(0%); }
 }
 
 @keyframes slide-out-b {
   0% { transform: translateX(0%); }
-  100% { transform: translateX(100%); }
+  100% { transform: translateX(102%); }
 }
 
 .card {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
 }
 
 .grid {
 
   .card {
-    width: 30%;
+    width: 40%;
 
-    &__panel {
+    &__pane {
+      background-color: rgba(255,255,255,0.7);
+      border: 0;  
+      box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
       height: 0;
-      overflow-y: auto;
+      overflow: hidden;
       padding-top: 100%;
       position: relative;
       width: 100%;
 
-      &-inner {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        text-align: left;
-        top: 0;
-        animation: transform 1s forwards;
-
-        &:first-of-type {
-          animation: slide-out-a 0.2s forwards;
-        }
-
-        &:last-of-type {
-          animation: slide-out-b 0.2s forwards;
-          transform: translateX(100%);
-        }
-      }
-
       &.flipped {
 
-        .card__panel-inner {
-
+        .card__inner {
+  
           &:first-of-type {
-            animation: slide-in-a 0.2s forwards;
+            animation: slide-in-a 0.6s forwards;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            transform: translateX(-102%);
           }
-
+  
           &:last-of-type {
-            animation: slide-in-b 0.2s forwards;
+            animation: slide-in-b 0.6s forwards;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
           }
         }
       }
     }
-    
-    &__content-pad {
+
+    &__inner {
+      bottom: 0;
+      display: flex;
+      left: 0;
+      position: absolute;
+      right: 0;
+      text-align: left;
+      top: 0;
+
+      &:first-of-type {
+        animation: slide-out-a 0.6s forwards;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+      }
+
+      &:last-of-type {
+        animation: slide-out-b 0.6s forwards;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        transform: translateX(102%);
+      }
+    }
+
+    &__square {
+      bottom: 0;
+      left: 0;
+      overflow-y: auto;
       padding: 0.5em;
+      position: absolute;
+      right: 0;
+      text-align: left;
+      top: 0;
     }
 
     img {
       max-width: 100%;
-      position: sticky;
-      top: 0;
     }
   }
 }
