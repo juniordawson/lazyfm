@@ -1,4 +1,8 @@
-<button (click)="layout=!layout">Layout</button>
+<div class="btn__group">
+    <button (click)="layout=!layout" [ngClass]="{'btn--primary' : layout, 'btn--secondary' : !layout}" class="btn">Grid</button>
+    <button (click)="layout=!layout" [ngClass]="{'btn--secondary' : layout, 'btn--primary' : !layout}" class="btn">Column</button>
+</div>
+
 <div [ngClass]="layout ? 'column' : 'grid'">
     <div class="card" *ngFor="let mix of mixes; index as mixId">
         <div target="_self" class="card__pane" [ngClass]="{'flipped': mix.isflipped }" (click)="mix.isflipped = !mix.isflipped;">
@@ -33,9 +37,9 @@
             </div>
         </div>
 
-        <div class="two-col">
-            <a href="{{mix.file}}" download class="btn two-col__item">Download file</a>
-            <a href="" class="btn two-col__item">Listen online</a>
+        <div class="two-col btn__group">
+            <a href="{{mix.file}}" download class="btn btn--primary two-col__item">Download file</a>
+            <a href="" class="btn btn--primary two-col__item">Listen online</a>
         </div>
     </div>
 </div>
