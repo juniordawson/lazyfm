@@ -22,9 +22,32 @@
   margin: 0 0 2em 0;
 }
 
+.column {
+  .card {
+
+    &__pane {
+      display: flex;
+      flex-direction: corowlumn;
+    }
+
+    &__inner {
+      
+      &:first-of-type {
+        // flex: 1 0;
+        margin-right: 2em;
+      }
+      
+      &:last-of-type {
+        // flex: 1 0 0;
+      }
+    }
+  }
+}
+
 .grid {
 
   .card {
+    max-width: 400px;
     width: 40%;
 
     &__pane {

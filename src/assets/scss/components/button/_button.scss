@@ -1,11 +1,30 @@
 .btn {
-    background-color: #efefef;
-    box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+    border: 1px solid #555;
     padding: .5em .75em;
     text-align: center;
     text-decoration: none;
 
-    &:hover {
-        background-color: #afafaf;
+    &--primary {
+        background-color: #444;
+        color: #fafafa;
+
+        &:hover {
+            background-color: #888;
+            color: #222;
+        }
+    }
+
+    &--secondary {
+        background-color: #f7f7f7;
+        color: #222;
+
+        &:hover {
+            background-color: #aaa;
+            color: #fafafa;
+        }
+    }
+
+    &__group {
+        text-align: center;
     }
 }
