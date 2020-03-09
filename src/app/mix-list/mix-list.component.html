@@ -1,6 +1,9 @@
+<!-- https://stackoverflow.com/questions/40678206/angular-2-filter-search-list -->
+<input [(ngModel)]="query">
+
 <button (click)="layout=!layout">Layout</button>
 <div [ngClass]="layout ? 'column' : 'grid'">
-    <div class="card" *ngFor="let mix of mixes; index as mixId">
+    <div class="card" *ngFor="let mix of mixes | search:'mixId':query; index as mixId">
         <div target="_self" class="card__pane" [ngClass]="{'flipped': mix.isflipped }" (click)="mix.isflipped = !mix.isflipped;">
             <div class="card__inner">
                 <img src="./assets/img/covers/{{mix.img}}" alt="{{mix.title}} cover" />
