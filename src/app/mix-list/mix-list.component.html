@@ -1,49 +1,52 @@
 <!-- https://stackoverflow.com/questions/40678206/angular-2-filter-search-list -->
-<input [(ngModel)]="query">
+<section class="search-field">
+    <input [(ngModel)]="query" type="search" class="font-size--lg">
+</section>
 
-<button (click)="layout=!layout">Layout</button>
-<div class="btn__group">
-    <button (click)="layout=!layout" [ngClass]="{'btn--primary' : layout, 'btn--secondary' : !layout}" class="btn">Grid</button>
-    <button (click)="layout=!layout" [ngClass]="{'btn--secondary' : layout, 'btn--primary' : !layout}" class="btn">Column</button>
-</div>
+<section>
+    <div class="btn__group">
+        <button (click)="layout=!layout" [ngClass]="{'btn--primary' : layout, 'btn--secondary' : !layout}" class="btn">Grid</button>
+        <button (click)="layout=!layout" [ngClass]="{'btn--secondary' : layout, 'btn--primary' : !layout}" class="btn">Column</button>
+    </div>
 
-<div [ngClass]="layout ? 'column' : 'grid'">
-    <div class="card" *ngFor="let mix of mixes | search:'mixId':query; index as mixId">
-        <div target="_self" class="card__pane" [ngClass]="{'flipped': mix.isflipped }" (click)="mix.isflipped = !mix.isflipped;">
-            <div class="card__inner">
-                <img src="./assets/img/covers/{{mix.img}}" alt="{{mix.title}} cover" />
-            </div>
-            <div class="card__inner">
-                <div class="card__square">
-                    <h2>{{mix.title}}</h2> 
-                    <dl>
-                        <dt>Dj: </dt>
-                        <dd>{{mix.dj}}</dd>
-                    </dl>
-                    <dl>
-                        <dt>Sound/s: </dt>
-                        <dd *ngFor="let genre of mix.genres">{{genre.sound}}</dd>
-                    </dl>
-                    <dl>
-                        <dt>Collection: </dt>
-                        <dd>{{mix.collection}}</dd>
-                    </dl>
-                    <dl>
-                        <dt>Date:</dt>
-                        <dd>{{mix.date}}</dd>
-                    </dl>
+    <div [ngClass]="layout ? 'column' : 'grid'">
+        <div class="card" *ngFor="let mix of mixes | search:'mixId':query; index as mixId">
+            <div class="card__pane" [ngClass]="{'flipped': mix.isflipped }" (click)="mix.isflipped = !mix.isflipped;">
+                <div class="card__inner">
+                    <img src="./assets/img/covers/{{mix.img}}" alt="{{mix.title}} cover" />
+                </div>
+                <div class="card__inner">
+                    <div class="card__square">
+                        <h2>{{mix.title}}</h2> 
+                        <dl>
+                            <dt>Dj: </dt>
+                            <dd>{{mix.dj}}</dd>
+                        </dl>
+                        <dl>
+                            <dt>Sound/s: </dt>
+                            <dd *ngFor="let genre of mix.genres">{{genre.sound}}</dd>
+                        </dl>
+                        <dl>
+                            <dt>Collection: </dt>
+                            <dd>{{mix.collection}}</dd>
+                        </dl>
+                        <dl>
+                            <dt>Date:</dt>
+                            <dd>{{mix.date}}</dd>
+                        </dl>
 
-                    <h3>Tracklist:</h3>
-                    <ul>
-                        <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} &mdash; '{{ tracklist.track }}'</li>
-                    </ul>
+                        <h3>Tracklist:</h3>
+                        <ul>
+                            <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} &mdash; '{{ tracklist.track }}'</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="two-col btn__group">
-            <a href="{{mix.file}}" download class="btn btn--primary two-col__item">Download file</a>
-            <a href="" class="btn btn--primary two-col__item">Listen online</a>
+            <div class="two-col btn__group">
+                <a href="{{mix.file}}" download class="btn btn--primary two-col__item">Download file</a>
+                <a href="" class="btn btn--primary two-col__item">Listen online</a>
+            </div>
         </div>
     </div>
-</div>
+</section>

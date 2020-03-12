@@ -4,3 +4,22 @@ $space-after-lrg:   0 0 .75em 0;
 
 //colours
 $text-mid: #888;
+
+/// Breakpoint media type (for example: `screen` or `print`)
+/// @type String
+$breakpoint-media-type: all !default;
+
+// Breakpoint list
+/// @type Map
+$breakpoints: (
+    3xs: 480px,
+    2xs: 600px,
+    xs:  720px,
+    sm:  840px,
+    md:  960px,
+    lg:  1024px,
+    xl:  1280px,
+    2xl: 1440px,
+    3xl: 1600px
+) !default;
+

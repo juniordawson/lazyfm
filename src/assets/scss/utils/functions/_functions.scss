@@ -1,0 +1,32 @@
+// @import "./variables/variables";
+
+/// Convert pixels to ems
+///
+/// @param {number} $size - value to convert
+/// @param {number} $parent [$base-font-size] - parent font size
+///
+/// @returns {number} value in ems
+@function px-to-em($size, $parent: $base-font-size) {
+    @if unit($size) == "em" {
+        @warn "The size value `#{$size}` provided is already an em.";
+        @return $size;
+    } @else {
+        @if unitless($size) { $size: $size * 1px; }
+        @if unitless($parent) { $parent: $parent * 1px; }
+    }
+ 
+    @return ($size / $parent) * 1em;
+}
+
+/// Get a breakpoint's value
+///
+/// @param {string} - One of $breakpoint map keys
+///
+/// @return {number} - value of $breakpoint map key
+@function breakpoint($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @return map-get($breakpoints, $breakpoint);
+    }
+
+    @error "Key `#{$breakpoint}` was not found in the `$breakpoints` map.";
+}

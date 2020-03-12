@@ -27,3 +27,18 @@ li {
     letter-spacing: 0.05em;
     margin: $space-after-std;
 }
+
+.font-size {
+
+    &--body {
+        font-size: 1em;
+    }
+
+    &--md {
+        font-size: 1.25em;
+    }
+
+    &--lg {
+        font-size: 1.75em;
+    }
+}

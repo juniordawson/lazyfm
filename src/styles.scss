@@ -2,15 +2,17 @@
 
 
 @import './assets/scss/utils/variables/variables';
+@import './assets/scss/utils/functions/functions';
+@import './assets/scss/utils/mixins/mixins';
 
 @import './assets/scss/base/reset/reset';
 @import './assets/scss/base/type/type';
-
 
 @import './assets/scss/components/button/button';
 @import './assets/scss/components/card/card';
 @import './assets/scss/components/dl/dl';
 @import './assets/scss/components/logo/logo';
+@import './assets/scss/components/search-field/search-field';
 
 @import './assets/scss/layout/header/header';
 @import './assets/scss/layout/index/index';
