@@ -27,7 +27,7 @@
 
     &__pane {
       display: flex;
-      flex-direction: corowlumn;
+      flex-direction: column;
     }
 
     &__inner {
@@ -45,78 +45,59 @@
 }
 
 .grid {
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1rem;
 
   .card {
-    max-width: 400px;
-    width: 80%;
-
-    @include breakpoint($from: lg) {
-      width: 30%;
-    }
-
-    &__pane {
-      background-color: rgba(255,255,255,0.7);
-      border: 0;  
-      box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
-      cursor: pointer;
-      height: 0;
-      overflow: hidden;
-      padding-top: 100%;
-      position: relative;
-      width: 100%;
-
-      &.flipped {
-
-        .card__inner {
-  
-          &:first-of-type {
-            animation: slide-in-a 0.6s forwards;
-            animation-timing-function: ease-in-out;
-            animation-delay: 0s;
-            transform: translateX(-102%);
-          }
-  
-          &:last-of-type {
-            animation: slide-in-b 0.6s forwards;
-            animation-timing-function: ease-in-out;
-            animation-delay: 0s;
-          }
-        }
-      }
-    }
+    grid-row: span 1;
+    grid-column: span 1;
+    background-color: rgba(255,255,255,0.7);
+    border: 0;  
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    position: relative;
+    width: 100%;
 
     &__inner {
-      bottom: 0;
-      display: flex;
-      left: 0;
-      position: absolute;
-      right: 0;
-      text-align: left;
-      top: 0;
 
       &:first-of-type {
-        animation: slide-out-a 0.6s forwards;
-        animation-timing-function: ease-in-out;
-        animation-delay: 0s;
+
+        .card__buttons {
+          display: none;
+        }
       }
 
       &:last-of-type {
-        animation: slide-out-b 0.6s forwards;
-        animation-timing-function: ease-in-out;
-        animation-delay: 0s;
-        transform: translateX(102%);
+        display: none;
       }
     }
 
-    &__square {
-      bottom: 0;
-      left: 0;
-      overflow-y: auto;
-      padding: 0.5em;
-      position: absolute;
-      right: 0;
-      text-align: left;
-      top: 0;
+    &.card--span {
+      display: flex;
+      flex-direction: column;
+      grid-row: span 2;
+      grid-column: span 1;
+      justify-content: space-between;
+
+      .card__inner {
+        flex: 1 1 0;
+
+        &:first-of-type {
+          margin-right: 0.5rem;
+
+          .card__buttons {
+            display: block;
+          }
+        }
+
+        &:last-of-type {
+          display: block;
+          margin-left: 0.5rem;
+        }
+      }
     }
 
     img {
@@ -124,4 +105,3 @@
     }
   }
 }
-  
