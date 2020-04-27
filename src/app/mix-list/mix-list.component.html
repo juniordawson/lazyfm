@@ -2,6 +2,10 @@
 <section class="search-field">
     <input [(ngModel)]="query" type="search" class="font-size--lg">
 </section>
+<!-- 
+<section class="search-field">
+    <button [(ngModel)]="query" class="font-size--lg">Soul</button>
+</section> -->
 
 <section>
     <div class="btn__group">
@@ -11,7 +15,7 @@
 
     <div [ngClass]="layout ? 'column' : 'grid'">
         <div class="card" 
-            *ngFor="let mix of mixes | search:'mixId':query; index as mixId"
+            *ngFor="let mix of mixes | search:'mixId,title,artist.tracklist':query; index as mixId"
             [ngClass]="{'card--span': mix.isflipped }" 
             (click)="mix.isflipped = !mix.isflipped;">
             <div class="card__inner">
