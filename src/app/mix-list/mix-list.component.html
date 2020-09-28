@@ -1,11 +1,7 @@
 <!-- https://stackoverflow.com/questions/40678206/angular-2-filter-search-list -->
 <section class="search-field">
-    <input [(ngModel)]="query" type="search" class="font-size--lg">
+    <input (input) = "transform($event.target.value)" [(ngModel)]="search" class="font-size--lg">
 </section>
-<!-- 
-<section class="search-field">
-    <button [(ngModel)]="query" class="font-size--lg">Soul</button>
-</section> -->
 
 <section>
     <div class="btn__group">
@@ -13,9 +9,84 @@
         <button (click)="layout=!layout" [ngClass]="{'btn--primary' : layout, 'btn--secondary' : !layout}" class="btn">Column</button>
     </div>
 
+
     <div [ngClass]="layout ? 'column' : 'grid'">
-        <div class="card" 
-            *ngFor="let mix of mixes | search:'mixId,title,artist.tracklist':query; index as mixId"
+        <!-- <div *ngFor="let mix of mixes | mixFilterPipe : search" 
+        [ngClass]="{'card--span': mix.isflipped }" 
+        (click)="mix.isflipped = !mix.isflipped;"
+            class="card">
+            <div class="card__inner">
+                <img src="./assets/img/covers/{{mix.img}}" alt="{{mix.title}} cover" />
+                <div class="card__buttons two-col btn__group">
+                    <a href="{{mix.file}}" download class="btn btn--primary two-col__item">Download file</a>
+                    <a href="" class="btn btn--primary two-col__item">Listen online</a>
+                </div>
+            </div>
+            <div class="card__inner">
+                <h2>{{mix.title}}</h2> 
+                <dl>
+                    <dt>Dj: </dt>
+                    <dd>{{mix.dj}}</dd>
+                </dl>
+                <dl>
+                    <dt>Sound/s: </dt>
+                    <dd *ngFor="let genre of mix.genres">{{genre.sound}}</dd>
+                </dl>
+                <dl>
+                    <dt>Collection: </dt>
+                    <dd>{{mix.collection}}</dd>
+                </dl>
+                <dl>
+                    <dt>Date:</dt>
+                    <dd>{{mix.date}}</dd>
+                </dl>
+
+                <h3>Tracklist:</h3>
+                <ul>
+                    <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} &mdash; '{{ tracklist.track }}'</li>
+                </ul>
+            </div>
+        </div> -->
+
+        <div *ngFor="let mix of finalResult;" 
+            [ngClass]="{'card--span': mix.isflipped }" 
+            (click)="mix.isflipped = !mix.isflipped;"
+            class="card">
+            <div class="card__inner">
+                <img src="./assets/img/covers/{{mix.img}}" alt="{{mix.title}} cover" />
+                <div class="card__buttons two-col btn__group">
+                    <a href="{{mix.file}}" download class="btn btn--primary two-col__item">Download file</a>
+                    <a href="" class="btn btn--primary two-col__item">Listen online</a>
+                </div>
+            </div>
+            <div class="card__inner">
+                <h2>{{mix.title}}</h2> 
+                <dl>
+                    <dt>Dj: </dt>
+                    <dd>{{mix.dj}}</dd>
+                </dl>
+                <dl>
+                    <dt>Sound/s: </dt>
+                    <dd *ngFor="let genre of mix.genres">{{genre.sound}}</dd>
+                </dl>
+                <dl>
+                    <dt>Collection: </dt>
+                    <dd>{{mix.collection}}</dd>
+                </dl>
+                <dl>
+                    <dt>Date:</dt>
+                    <dd>{{mix.date}}</dd>
+                </dl>
+
+                <h3>Tracklist:</h3>
+                <ul>
+                    <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} &mdash; '{{ tracklist.track }}'</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="card" 
+            *ngFor="let mix of mixes | search:'mixId,title,tracklist.artist':query; index as mixId"
             [ngClass]="{'card--span': mix.isflipped }" 
             (click)="mix.isflipped = !mix.isflipped;">
             <div class="card__inner">
@@ -49,6 +120,6 @@
                     <li *ngFor='let tracklist of mix.tracklist'>{{ tracklist.artist }} &mdash; '{{ tracklist.track }}'</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

@@ -7,8 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MixListComponent } from './mix-list/mix-list.component';
 import { MixPageComponent } from './mix-page/mix-page.component';
-import { SearchPipe } from './pipes/search/search.pipe';
-import { FilterPipe } from './pipes/filter/filter.pipe';
+import { MixFilterClass } from './pipes/search/search.pipe';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { FilterPipe } from './pipes/filter/filter.pipe';
     HeaderComponent,
     MixListComponent,
     MixPageComponent,
-    SearchPipe,
-    FilterPipe
+    MixFilterClass
   ],
   imports: [
     BrowserModule,
