@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MixPageComponent } from './mix-page.component';
 
@@ -6,7 +6,7 @@ describe('MixPageComponent', () => {
   let component: MixPageComponent;
   let fixture: ComponentFixture<MixPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MixPageComponent ]
     })

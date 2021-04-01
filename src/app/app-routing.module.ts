@@ -9,7 +9,7 @@ const routes: Routes = [];
   imports: [RouterModule.forRoot([
     { path: '', component: MixListComponent },
     { path: 'mixes/:mixId', component: MixPageComponent }
-  ])],
+], { relativeLinkResolution: 'legacy' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
